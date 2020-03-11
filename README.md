@@ -13,3 +13,8 @@ This service is not good for us.
 ## todo
 
 Logging the speed of download/upload regularly by python.
+
+# reference
+
+- github: https://github.com/sivel/speedtest-cli
+- API: https://github.com/sivel/speedtest-cli/wiki
