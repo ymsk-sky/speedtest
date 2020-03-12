@@ -3,7 +3,7 @@
 import speedtest
 
 servers = []
-threads = None
+threads = 1 # single threaded test
 
 s = speedtest.Speedtest()
 s.get_servers(servers)
@@ -15,3 +15,5 @@ s.upload(threads=threads)
 s.results.share()
 
 results_dict = s.results.dict()
+
+print(results_dict)
